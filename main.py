@@ -13,4 +13,11 @@ def difference_from_answer(guess,answer):
   elif guess == answer:
     return "Correct!"
 
+def make_a_guess(answer):
+  guess = input("Enter a number from 0-100")
+  difference_from_answer(guess,answer)
+
+  
+  
+
     
